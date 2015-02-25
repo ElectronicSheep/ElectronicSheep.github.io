@@ -3,7 +3,7 @@ Date: 2015-02-26 22:00
 Category: Pelican
 Tags: pelican, python
 Slug: first-post
-Author: ysaotome
+Author: Electonic Sheep
 Summary: 記事の要約です。
 
 # サンプルページ
