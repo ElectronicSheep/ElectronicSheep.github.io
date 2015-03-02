@@ -1,73 +1,271 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-        <meta charset="utf-8" />
-        <title>Electronic Sheep</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+    <!-- Banner -->
+      <section id="banner">
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <!--
+          ".inner" is set up as an inline-block so it automatically expands
+          in both directions to fit whatever's inside it. This means it won't
+          automatically wrap lines, so be sure to use line breaks where
+          appropriate (<br />).
+        -->
+        <div class="inner">
+
+          <header>
+            <h2>TWENTY</h2>
+          </header>
+          <p>This is <strong>Twenty</strong>, a free<br />
+          responsive template<br />
+          by <a href="http://html5up.net">HTML5 UP</a>.</p>
+          <footer>
+            <ul class="buttons vertical">
+              <li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+            </ul>
+          </footer>
+
+        </div>
+
+      </section><html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.dropotron.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-layers.min.js"></script>
+    <script src="/js/init.js"></script>
+    <link rel="stylesheet" href="/css/pygment.css" />
+    <noscript>
+        <link rel="stylesheet" href="/css/skel.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/style-noscript.css" />
+    </noscript>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link  href="http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
+    <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
+
+    <title>Electronic Sheep </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Electronic Sheep </a></h1>
-                <nav><ul>
-                    <li><a href="/category/pelican.html">Pelican</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<body class="index loading">
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/first-post.html">Pelicanのサンプル</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2015-02-26T22:00:00+01:00">
-                Published: 木 26 2月 2015
-        </abbr>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/electonic-sheep.html">Electonic Sheep</a>
-        </address>
-<p>In <a href="/category/pelican.html">Pelican</a>. </p>
-<p>tags: <a href="/tag/pelican.html">pelican</a> <a href="/tag/python.html">python</a> </p>
-</footer><!-- /.post-info --><h1>サンプルページ</h1>
-<ul>
-<li>SyntaxHighlit</li>
-</ul>
-<p><code>python
- print "Hello World!!"</code></p>                </article>
-<p class="paginator">
-    Page 1 / 1
-</p>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+    <!-- Header -->
+    <header id="header" class="alt">
+        <h1 class="logo">
+            <a href="">Electronic Sheep, design Twenty <span> by html5 up</span></a>
+        </h1>
+        <nav id="nav">
+            <ul>
+                <!-- <li class="current"><a href="index.html">Welcome</a></li> -->
+                <li class="submenu">
+                    <a href="/">Blog</a>
+                    <ul>
+                            <li >
+                                <a href="/category/pelican/">Pelican</a>
+                            </li>
+                    </ul>
+                </li>
+                <li><a href="#" class="button special">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+<!-- Main -->
+<article id="main">
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+  <header class="special container">
+    <span class="icon fa-bar-chart-o"></span>
+    <h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP<br />
+    I decided to give it a really creative name.</h2>
+    <p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,<br />
+    it's minimally designed, fully responsive, built on HTML5/CSS3/<strong>skel</strong>,
+    and, like all my stuff,<br />
+    released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
+  </header>
 
+  <!-- One -->
+  <section class="wrapper style2 container special-alt">
+    <div class="row half">
+      <div class="8u">
+
+        <header>
+          <h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
+        </header>
+        <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
+        <footer>
+          <ul class="buttons">
+            <li><a href="#" class="button">Find Out More</a></li>
+          </ul>
+        </footer>
+
+      </div>
+      <div class="4u skel-cell-important">
+
+        <ul class="feature-icons">
+          <li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
+          <li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
+          <li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
+          <li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
+          <li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
+          <li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Two -->
+  <section class="wrapper style1 container special">
+    <div class="row">
+
+      <div class="4u">
+
+        <section>
+          <span class="icon feature fa-"></span>
+          <header>
+            <a href="/first-post.html" rel='bookmark'><h3>Pelicanのサンプル</h3></a>
+          </header>
+          <p>サンプルページ SyntaxHighlit python print "Hello World!!"</p>
+          <footer>
+              <ul class="buttons">
+                  <li><a href="/first-post.html" class="button small">Read More</a></li>
+              </ul>
+          </footer>
+        </section>
+
+      </div>
+
+    </div> <!-- /.row -->
+
+
+<div class="row ">
+
+    <div class="4u pagination-left">
+        <section>
+            <header>
+                &nbsp;
+            </header>
+        </section>
+    </div>
+
+    <div class="4u pagination-middle">
+        <section>
+            <header>Page 1 / 1</header>
+        </section>
+    </div>
+
+    <div class="4u pagination-right">
+        <section>
+            <header>
+            </header>
+        </section>
+    </div>
+
+</div>
+
+
+  </section> <!-- /section -->
+
+</article>
+
+<!-- Three -->
+<section class="wrapper style3 container special">
+
+  <header class="major">
+    <h2>Next look at this <strong>cool stuff</strong></h2>
+  </header>
+
+  <div class="row">
+    <div class="6u">
+
+      <section>
+        <a href="#" class="image feature"><img src="images/pic01.jpg" alt="" /></a>
+        <header>
+          <h3>A Really Fast Train</h3>
+        </header>
+        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+      </section>
+
+    </div>
+    <div class="6u">
+
+      <section>
+        <a href="#" class="image feature"><img src="images/pic02.jpg" alt="" /></a>
+        <header>
+          <h3>An Airport Terminal</h3>
+        </header>
+        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+      </section>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="6u">
+
+      <section>
+        <a href="#" class="image feature"><img src="images/pic03.jpg" alt="" /></a>
+        <header>
+          <h3>Hyperspace Travel</h3>
+        </header>
+        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+      </section>
+
+    </div>
+    <div class="6u">
+
+      <section>
+        <a href="#" class="image feature"><img src="images/pic04.jpg" alt="" /></a>
+        <header>
+          <h3>And Another Train</h3>
+        </header>
+        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+      </section>
+
+    </div>
+  </div>
+
+  <footer class="major">
+    <ul class="buttons">
+      <li><a href="#" class="button">See More</a></li>
+    </ul>
+  </footer>
+
+</section><!-- CTA -->
+<section id="cta">
+
+    <header>
+        <h2>Ready to do <strong>something</strong>?</h2>
+        <p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+    </header>
+    <footer>
+        <ul class="buttons">
+            <li><a href="#" class="button special">Take My Money</a></li>
+            <li><a href="#" class="button">LOL Wut</a></li>
+        </ul>
+    </footer>
+
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+
+    <ul class="icons">
+        <li>
+          <a href="#" class="icon circle fa fa-You can add links in your config file"><span class="label">You can add links in your config file</span></a>
+        </li>
+        <li>
+          <a href="#" class="icon circle fa fa-Another social link"><span class="label">Another social link</span></a>
+        </li>
+    </ul>
+
+    <span class="copyright">&copy; Untitled. All rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+
+</footer>
 </body>
 </html>

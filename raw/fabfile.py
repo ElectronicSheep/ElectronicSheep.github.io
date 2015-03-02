@@ -71,3 +71,11 @@ def publish():
         delete=True,
         extra_opts='-c',
     )
+
+def collectstatic():
+  if os.path.isdir(DEPLOY_PATH):
+    local('mkdir -p {deploy_path}/css/ {deploy_path}/js/ {deploy_path}/fonts/ {deploy_path}/images/'.format(**env))
+    local('cp -rf {theme_path}/frankv-twenty-pelican-html5up/static/css/* {deploy_path}/css/'.format(**env))
+    local('cp -rf {theme_path}/frankv-twenty-pelican-html5up/static/js/* {deploy_path}/js/'.format(**env))
+    local('cp -rf {theme_path}/frankv-twenty-pelican-html5up/static/fonts/* {deploy_path}/fonts/'.format(**env))
+    local('cp -rf {theme_path}/frankv-twenty-pelican-html5up/static/images/* {deploy_path}/images/'.format(**env))
