@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Electronic Sheep</title><link href="http://electronicsheep.github.io/" rel="alternate"></link><link href="http://electronicsheep.github.io/feeds/pelican.atom.xml" rel="self"></link><id>http://electronicsheep.github.io/</id><updated>2015-02-26T22:00:00+01:00</updated><entry><title>Pelicanのサンプル</title><link href="http://electronicsheep.github.io/first-post.html" rel="alternate"></link><updated>2015-02-26T22:00:00+01:00</updated><author><name>Electonic Sheep</name></author><id>tag:electronicsheep.github.io,2015-02-26:first-post.html</id><summary type="html">&lt;h1&gt;サンプルページ&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;SyntaxHighlit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;python
- print "Hello World!!"&lt;/code&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="python"></category></entry></feed>
